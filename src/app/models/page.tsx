@@ -251,7 +251,7 @@ export default function ModelsPage() {
   };
 
   return (
-    <div className="min-h-screen bg-gray-50">
+    <div className="min-h-screen bg-white">
       {/* Navigation */}
       <nav className="border-b border-gray-200 bg-white/80 backdrop-blur-md sticky top-0 z-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -260,9 +260,9 @@ export default function ModelsPage() {
               <Link href="/" className="text-2xl font-bold text-blue-600">StartFlow</Link>
               <div className="hidden md:flex space-x-6">
                 <Link href="/models" className="text-blue-600 font-medium">Models</Link>
-                <Link href="/pricing" className="text-gray-700 hover:text-blue-600 transition-colors">Pricing</Link>
-                <Link href="/docs" className="text-gray-700 hover:text-blue-600 transition-colors">Docs</Link>
-                <Link href="/blog" className="text-gray-700 hover:text-blue-600 transition-colors">Blog</Link>
+                <a href="#" className="text-gray-700 hover:text-blue-600 transition-colors">Pricing</a>
+                <a href="#" className="text-gray-700 hover:text-blue-600 transition-colors">Docs</a>
+                <a href="#" className="text-gray-700 hover:text-blue-600 transition-colors">Blog</a>
               </div>
             </div>
             <div className="flex items-center space-x-4">
